@@ -22,7 +22,7 @@ Testingen av programmet er gjort ved hjelp av Jest. Det er kun funksjonene som l
 
 i terminalen, gitt at du har installert pakkene med kommandoene beskrevet i seksjonen over.
 
-Jeg har valgt å teste hver enkelt funksjon med hensyn på kant-tilfeller, ting som kan tenkes å gi error og tilfeller som åpenbart skal gi riktig resultat. Det er alltids rom for flere tester, men på et så lite prosjekt anså jeg de nåværende testene som tilstrekkelige. Jeg har valgt å ikke teste index.js for å spare tid. I et større prosjekt (hvor jeg har mer tid) ville jeg også forsøkt å teste denne filen da denne er spesielt viktig siden den faktisk kjører programmet som brukeren interagerer med.
+Jeg har valgt å teste hver enkelt funksjon med hensyn på kant-tilfeller, ting som kan tenkes å gi error og tilfeller som skal fungere normalt. Det er alltids rom for flere tester, men på et så lite prosjekt anså jeg de nåværende testene som tilstrekkelige. Jeg har valgt å ikke teste index.js for å spare tid. I et større prosjekt (hvor jeg har mer tid) ville jeg også forsøkt å teste denne filen da denne er spesielt viktig siden den faktisk kjører programmet som brukeren interagerer med.
 
 ## Valg av teknologi
 
