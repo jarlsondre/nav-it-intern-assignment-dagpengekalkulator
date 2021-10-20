@@ -16,7 +16,7 @@ console.log("Svar på spørsmålene og se hvor mye du har rett på i dagpenger!"
 // Getting user input
 while (incomeList.length < 3) {
   let income = parseInt(prompt(promptPhrases[incomeList.length]));
-  // Checking if income is NaN
+  // Checking if income is NaN or negative
   while (income !== income || income < 0) {
     console.log("Du må skrive inn et positivt tall!");
     income = parseInt(prompt(promptPhrases[incomeList.length]));
@@ -31,6 +31,7 @@ const dailySupportMoney = supportCalculator(
   incomeList[0]
 );
 
+// Presenting the user with the verdict
 if (dailySupportMoney === 0) {
   console.log("Beklager, men du har ikke rett på dagpenger");
 } else {
