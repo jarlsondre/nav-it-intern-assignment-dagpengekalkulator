@@ -17,8 +17,8 @@ console.log("Svar på spørsmålene og se hvor mye du har rett på i dagpenger!"
 while (incomeList.length < 3) {
   let income = parseInt(prompt(promptPhrases[incomeList.length]));
   // Checking if income is NaN
-  while (income !== income) {
-    console.log("Du må skrive inn et tall!");
+  while (income !== income || income < 0) {
+    console.log("Du må skrive inn et positivt tall!");
     income = parseInt(prompt(promptPhrases[incomeList.length]));
   }
   incomeList.push(income);
