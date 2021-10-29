@@ -6,7 +6,7 @@ For å kjøre filen må du først klone repo-et. Etter at du har klonet repo-et 
 
 `npm install`
 
-eller
+eller (test)
 
 `npm i`
 
